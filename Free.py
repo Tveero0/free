@@ -73,7 +73,7 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 
-	os.system('clear')
+	
 	print(logo);xchker()
 	print('Code Like Humor When You Have To Explain It Its Bad')
 	print(50*'-')
